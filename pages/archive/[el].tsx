@@ -13,7 +13,6 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  // mock array of strings
   const data = getData();
 
   return {
